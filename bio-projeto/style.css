@@ -1,0 +1,59 @@
+
+
+/*Estas regras centralizam a imagem da logo*/
+.div-logo {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    /*height: 300px; /* Defina a altura da div conforme necessário */
+     /* Apenas para visualização */ 
+     margin-bottom: -4px;
+}
+
+/*Esta regra manipula o tamanho da imagem da logo*/
+.logo {
+    height: 40vh;
+    width: ;
+}
+
+
+/* Estilos do Menu */
+.menu {
+    background-color: #F2F2F2; /* Cor de fundo do menu */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza os itens do menu */
+    width: 74.6%; /* Ajuste o valor conforme necessário */
+    margin: 0 auto; /* Centraliza a barra horizontalmente */
+    border: 1px solid #668C3F;
+    
+    
+}
+
+.menu ul {
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens */
+}
+
+.menu ul li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+.menu ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #668C3F; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    padding: 10px 20px; /* Espaçamento interno dos links */
+    display: block; /* Faz o link ocupar toda a área do li */
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
+
+.menu ul li a:hover {
+    background-color: #7d642ee3; /* Cor de fundo ao passar o mouse */
+    color: #F2F2F2; /* Cor do texto ao passar o mouse */
+    border-radius: 5px; /* Borda arredondada */
+}
+
